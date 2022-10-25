@@ -17,17 +17,7 @@
     .second-layout {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: unset;
-    }
-    header,
-    footer,
-    aside,
-    nav,
-    main,
-    .left-aside,
-    .right-aside {
-        grid-column: 1 / 5;
-    }
-    
+    }  
 }
 
 .second-layout>* {
