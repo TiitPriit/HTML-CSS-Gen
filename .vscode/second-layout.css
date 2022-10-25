@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.second-layout {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr minmax(100px, 300px);
+    grid-template-rows: auto auto 1fr auto;
+    padding: 1rem;
+    min-height: 100vh;
+    background-color: bisque;
+    gap: 1rem;
+}
+@media screen and (max-width: 600px) {
+    .second-layout {
+        background-color: azure;
+    }
+    
+}
+
+.second-layout>* {
+    border: red solid 2px;
+}
+
+header,
+footer {
+    grid-column: 1 / 4;
+}
+aside {
+    grid-row: 2 / 4;
+}
+.left-aside {
+    grid-column: 1 / 2;
+}
+
+.right-aside {
+    grid-column: 3 / 4;
+}
+
+header,
+.footer,
+.main,
+.aside,
+.nav {
+    padding: 1rem;
+    border: red solid 2px;
+}
