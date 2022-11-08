@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.header {
+    height: 80px;
+    background-color: aqua;
+    border-bottom: solid 2px black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+section {
+    height: 50vh;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 10px;
+    position: relative;
+}
+span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
