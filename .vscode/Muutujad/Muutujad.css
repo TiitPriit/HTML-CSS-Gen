@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    --green-500: #04AA6d;
+    --white-500: #ffffff;
+    --midnight-blue: #2424a3;
+    --purple: #800080;
+    --green-shadow: 5px 10px 30px var(--green-500);
+    --grey-shadow: 5px 10px 30px grey;
+    --blue-shadow: 5px 10px 30px var(--midnight-blue);
+    --purple-shadow: 5px 10px 30px var(--purple);
+}
+.log-in-button {
+    padding: 4px 16px;
+    margin: 16px;
+    background-color: var(--green-500);
+    box-shadow: var(--green-shadow);
+}
+.log-in-button2 {
+    padding: 4px 16px;
+    margin: 16px;
+    background-color: var(--white-500);
+    box-shadow: var(--grey-shadow);
+}
+.log-in-button3 {
+    padding: 4px 16px;
+    margin: 16px;
+    background-color: var(--midnight-blue);
+    box-shadow: var(--blue-shadow);
+}
+.log-in-button4 {
+    padding: 4px 16px;
+    margin: 16px;
+    background-color: var(--purple);
+    box-shadow: var(--purple-shadow);
+}
+
